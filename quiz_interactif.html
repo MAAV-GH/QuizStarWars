@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ INTERACTIF</title>
+    <link rel="stylesheet" href="css/quiz_interactif.CSS">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&display=swap">
+    <script src="js/quiz_interactif.JS" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- ACCUEIL -->
+        <div class="page intro active">
+            <p class="titre">QUIZ SPECIAL <br> STAR WARS</p>
+            <p class="start">Commencer le quiz</p>
+        </div>
+        <!-- QUESTION 1-->
+        <div class="page question1 ">
+            <p class="question-number">Question 1/5</p>
+            <p class="question">En quelle année est sorti l'Episode I de Star Wars ?</p>
+            <ul class="answer-list">
+                <li class="answer">1977</li>
+                <li class="answer correct">1999</li>
+                <li class="answer">2001</li>
+                <li class="answer">1988</li>
+            </ul>
+            <p class="validation">Valider la réponse</p>
+            <div class="solution">
+                <p class="answerShowed">Star Wars Episode I : La Menace fantôme est sorti en 1999 !</p>
+                <p class="nextQuestionButton">Question suivante</p>
+
+            </div>
+        </div>
+        <!-- QUESTION 2-->
+        <div class="page question2">
+            <p class="question-number">Question 2/5</p>
+            <p class="question">Qui est le créateur de la bande originale de Star Wars ?</p>
+            <ul class="answer-list">
+                <li class="answer correct">John Williams</li>
+                <li class="answer">Hans Zimmer</li>
+                <li class="answer">Alan Silvestri</li>
+                <li class="answer">James Newton Howard</li>
+            </ul>
+            <p class="validation">Valider la réponse</p>
+            <div class="solution">
+                <p class="answerShowed">John Williams a composé la bande originale de la saga Star Wars, à commencer par Un Nouvel Espoir en 1977.</p>
+                <p class="nextQuestionButton">Question suivante</p>
+            </div>
+        </div>
+        <!-- QUESTION 3-->
+        <div class="page question3">
+            <p class="question-number">Question 3/5</p>
+            <p class="question">Sur quelle planète se déroule le combat entre Obi-Wan Kenobi et Anakin Skywalker dans l'Episode III : La Revanche des Sith</p>
+            <ul class="answer-list">
+                <li class="answer">Naboo</li>
+                <li class="answer correct">Mustafar</li>
+                <li class="answer">Kamino</li>
+                <li class="answer">Coruscant</li>
+            </ul>
+            <p class="validation">Valider la réponse</p>
+            <div class="solution">
+                <p class="answerShowed">L'affrontement a eu lieu sur la planète de lave Mustafar !</p>
+                <p class="nextQuestionButton">Question suivante</p>
+
+            </div>
+        </div>
+        <!-- QUESTION 4-->
+        <div class="page question4">
+            <p class="question-number">Question 4/5</p>
+            <p class="question">Qui est le Skywalker de la trilogie originale ?</p>
+            <ul class="answer-list">
+                <li class="answer">Anakin</li>
+                <li class="answer">Rey</li>
+                <li class="answer correct">Luke</li>
+                <li class="answer">Owen</li>
+            </ul>
+            <p class="validation">Valider la réponse</p>
+            <div class="solution">
+                <p class="answerShowed">Luke est le personnage principal de la trilogie originale de Star Wars, incarné par Mark Hamill.</p>
+                <p class="nextQuestionButton">Question suivante</p>
+            </div>
+        </div>
+        <!-- QUESTION 5-->
+        <div class="page question5">
+            <p class="question-number">Question 5/5</p>
+            <p class="question">Qui a dit "Luke, je suis ton père"?</p>
+            <ul class="answer-list">
+                <li class="answer">Dark Vador</li>
+                <li class="answer">Obi-Wan Kenobi</li>
+                <li class="answer">Palpatine</li>
+                <li class="answer correct">Personne</li>
+            </ul>
+            <p class="validation">Valider la réponse</p>
+            <div class="solution">
+                <p class="answerShowed">Personne, la vraie phrase est "Non, je suis ton père" (prononcée par Dark Vador).
+                <p class="nextQuestionButton">Question suivante</p>
+
+            </div>
+        </div>
+        <!-- SCORE FINAL -->
+        <div class="page score ">
+            <p class="scoreText">TON SCORE</p>
+            <p class="scoreMessage"></p> <!-- message personnalisé selon le score obtenu-->
+        </div>
+    </div>  
+
+</body>
+</html>
